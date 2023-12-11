@@ -2,10 +2,10 @@
 # Downloads Sorter
 
 A simple script to sort files in your downloads folder by category. 
-This script run on Windows, Linux & MacOS
+This script runs on Windows, Linux & MacOS
 ## Run Locally
 
-All libraries used in this project are in-built into python
+All libraries used in this project are built-into python already
 
 Clone the project
 
