@@ -17,7 +17,7 @@ def get_platform():
 
 print(f"You are running on {get_platform()}.")
 
-# Obtain the path of the downloads folder
+# Obtain the path of the downloads folder for your os
 if get_platform() == 'Windows':
     downloads_path = os.path.join(os.environ['USERPROFILE'], 'Downloads')
 elif get_platform() == 'Linux' or 'Mac':
@@ -28,12 +28,15 @@ else:
 
 # Create a dictionary to map file extensions to categories
 file_categories = {
-    'Audio': ('.mp3', '.wav', '.flac', '.aac', '.ogg', '.aiff'),
-    'Video': ('.mp4', '.avi', '.mkv', '.mov', '.webm', '.flv'),
-    'Images': ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.jiff', '.svg'),
-    'Documents': ('.pdf', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.ods'),
+    'Audio': ('.mp3', '.wav', '.flac', '.aac', '.ogg', '.aiff', '.xspf', '.wma'),
+    'Video': ('.mp4', '.avi', '.mkv', '.mov', '.webm', '.flv', '.wmv', '.bik', '.mts'),
+    'Images': ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.jiff', '.svg', '.ico'),
+    'Documents': ('.pdf', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.ods', '.odt', '.odp', '.odf', '.odg', '.accdb', '.rtf', '.md'),
     'Archives': ('.zip', '.rar', '.7z', '.tar', '.gz', '.tar.xz', '.dmg'),
-    'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.app', '.rpm'),
+    'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso',),
+    'Fonts': ('.woff', '.woff2', '.otf', '.ttf'),
+    'Designs': ('.xcf', '.eps', '.ai', '.blend'),
+    'Scripts': ('.py', '.js', '.ts', '.sh', '.bat', '.bas', '.ini',),
     'Others': ()
 }
 # Get all files in the downloads folder
@@ -51,4 +54,4 @@ for file in files:
             shutil.move(file_path, os.path.join(target_folder, file))
             break
 
-print("Downloads folder organized successfully!")
+print("Your Downloads folder has been organized successfully!")
