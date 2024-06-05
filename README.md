@@ -32,4 +32,4 @@ Run Script (Windows)
 
 ## Feedback
 
-If you have any feedback, please reach out to me at abdulkanton@gmail.com or helitoon@outlook.com
+If you have any feedback, please reach out to me at abdulkanton2005@gmail.com
