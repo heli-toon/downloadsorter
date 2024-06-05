@@ -26,12 +26,12 @@ else:
     print(f'Your {os.name} is not supported')
     exit()
 
-# Create a dictionary to map file extensions to categories
+# a dictionary to map file extensions to categories
 file_categories = {
-    'Audio': ('.mp3', '.wav', '.flac', '.aac', '.ogg', '.aiff', '.xspf', '.wma'),
+    'Audio': ('.mp3', '.wav', '.flac', '.aac', '.ogg', '.aiff', '.xspf', '.wma', '.mp2', '.au', '.m4a'),
     'Video': ('.mp4', '.avi', '.mkv', '.mov', '.webm', '.flv', '.wmv', '.bik', '.mts'),
-    'Images': ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.jiff', '.svg', '.ico'),
-    'Documents': ('.pdf', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.ods', '.odt', '.odp', '.odf', '.odg', '.accdb', '.rtf', '.md'),
+    'Images': ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.jiff', '.svg', '.ico', '.pcx', '.ppm'),
+    'Documents': ('.pdf', '.epub', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.ods', '.odt', '.odp', '.odf', '.odg', '.accdb', '.rtf', '.md', '.csv', ),
     'Archives': ('.zip', '.rar', '.7z', '.tar', '.gz', '.tar.xz', '.dmg'),
     'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso',),
     'Fonts': ('.woff', '.woff2', '.otf', '.ttf'),
