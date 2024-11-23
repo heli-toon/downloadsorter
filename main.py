@@ -22,22 +22,22 @@ if get_platform() == 'Windows':
     downloads_path = os.path.join(os.environ['USERPROFILE'], 'Downloads')
 elif get_platform() == 'Linux' or 'Mac':
     downloads_path = os.path.join(os.path.expanduser('~'), 'Downloads')
-else:
+else: 
     print(f'Your {os.name} is not supported')
     exit()
 
 # a dictionary to map file extensions to categories
-# 83 files ext 80+ file types supported
+# 85 files ext 80+ file types supported
 file_categories = {
     'Audio': ('.mp3', '.wav', '.flac', '.aac', '.ogg', '.aiff', '.xspf', '.wma', '.mp2', '.au', '.m4a'),
     'Video': ('.mp4', '.avi', '.mkv', '.mov', '.webm', '.flv', '.wmv', '.bik', '.mts'),
     'Images': ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.jfif', '.svg', '.ico', '.pcx', '.ppm'),
-    'Documents': ('.pdf', '.epub', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.ods', '.odt', '.odp', '.odf', '.odg', '.accdb', '.rtf', '.md', '.csv', ),
+    'Documents': ('.pdf', '.epub', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.tsv','.ods', '.odt', '.odp', '.odf', '.odg', '.accdb', '.rtf', '.md', '.csv', '.pages', '.sxw', '.wpd'),
     'Archives': ('.zip', '.rar', '.7z', '.tar', '.gz', '.tar.xz', '.dmg'),
     'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso', '.aab'),
     'Fonts': ('.woff', '.woff2', '.otf', '.ttf'),
     'Designs': ('.xcf', '.eps', '.ai', '.blend'),
-    'Scripts': ('.py', '.js', '.ts', '.sh', '.bat', '.bas', '.ini', '.ino'),
+    'Scripts': ('.py', '.js', '.ts', '.sh', '.bat', '.bas', '.ini', '.ino', '.rb'),
     'Others': ()
 }
 # Get all files in the downloads folder
