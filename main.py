@@ -27,13 +27,13 @@ else:
     exit()
 
 # a dictionary to map file extensions to categories
-# 85 files ext 80+ file types supported
+# 87 files ext 80+ file types supported
 file_categories = {
     'Audio': ('.mp3', '.wav', '.flac', '.aac', '.ogg', '.aiff', '.xspf', '.wma', '.mp2', '.au', '.m4a'),
     'Video': ('.mp4', '.avi', '.mkv', '.mov', '.webm', '.flv', '.wmv', '.bik', '.mts'),
     'Images': ('.jpg', '.jpeg', '.avif', '.png', '.gif', '.bmp', '.webp', '.jfif', '.svg', '.ico', '.pcx', '.ppm'),
     'Documents': ('.pdf', '.epub', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.tsv','.ods', '.odt', '.odp', '.odf', '.odg', '.accdb', '.rtf', '.md', '.csv', '.pages', '.sxw', '.wpd'),
-    'Archives': ('.zip', '.rar', '.7z', '.tar', '.gz', '.tar.xz', '.dmg'),
+    'Archives': ('.zip', '.rar', '.7z', '.tar', '.gz', '.tar.xz', '.dmg', '.001', '.arj', '.bz2', '.bz', '.zst', '.zipx', '.z', '.xz', '.xxe'),
     'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso', '.aab'),
     'Fonts': ('.woff', '.woff2', '.otf', '.ttf'),
     'Designs': ('.xcf', '.eps', '.ai', '.blend'),
