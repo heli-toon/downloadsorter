@@ -37,8 +37,8 @@ file_categories = {
     'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso', '.aab'),
     'Fonts': ('.woff', '.woff2', '.otf', '.ttf'),
     'Designs': ('.xcf', '.eps', '.ai', '.blend'),
-    'Scripts': ('.py', '.js', '.ts', '.sh', '.bat', '.bas', '.ini', '.ino', '.rb'),
-    'Others': ()
+    'Scripts': ('.py', '.js', '.ts', '.sh', '.bat', '.bas', '.ini', '.ino', '.rb', '.bashrc', '.cpp', '.cs', '.java', '.json', '.php', '.pl', '.sql', '.xml', '.yaml', '.yml'),
+    # 'Others': ('.bin')
 }
 # Get all files in the downloads folder
 files = [f for f in os.listdir(downloads_path) if os.path.isfile(os.path.join(downloads_path, f))]
