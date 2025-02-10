@@ -36,7 +36,7 @@ file_categories = {
     'Archives': ('.zip', '.rar', '.7z', '.tar', '.gz', '.tar.xz', '.dmg', '.001', '.arj', '.bz2', '.bz', '.zst', '.zipx', '.z', '.xz', '.xxe'),
     'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso', '.aab'),
     'Fonts': ('.woff', '.woff2', '.otf', '.ttf'),
-    'Designs': ('.xcf', '.eps', '.ai', '.blend'),
+    'Designs': ('.xcf', '.eps', '.ai', '.blend', '.bw', '.dicom', '.exr', '.flc', '.fli', '.g3'),
     'Scripts': ('.py', '.js', '.ts', '.sh', '.bat', '.bas', '.ini', '.ino', '.rb', '.bashrc', '.cpp', '.cs', '.java', '.json', '.php', '.pl', '.sql', '.xml', '.yaml', '.yml'),
     'Others': ('.bin')
 }
