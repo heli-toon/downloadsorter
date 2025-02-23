@@ -30,11 +30,11 @@ else:
 # 85 files ext 80+ file types supported
 file_categories = {
     'Audio': ('.mp3', '.wav', '.flac', '.aac', '.ogg', '.aiff', '.xspf', '.wma', '.mp2', '.au', '.m4a'),
-    'Video': ('.mp4', '.avi', '.mkv', '.mov', '.webm', '.flv', '.wmv', '.bik', '.mts'),
+    'Video': ('.mp4', '.avi', '.mkv', '.mov', '.webm', '.flv', '.wmv', '.bik', '.mts', '.wtv', ),
     'Images': ('.jpg', '.jpeg', '.avif', '.png', '.gif', '.bmp', '.webp', '.jfif', '.svg', '.ico', '.pcx', '.ppm'),
     'Documents': ('.pdf', '.epub', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.tsv','.ods', '.odt', '.odp', '.odf', '.odg', '.accdb', '.rtf', '.md', '.csv', '.pages', '.sxw', '.wpd'),
     'Archives': ('.zip', '.rar', '.7z', '.tar', '.gz', '.tar.xz', '.dmg'),
-    'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso', '.aab'),
+    'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso', '.aab', '.mpqe', ),
     'Fonts': ('.woff', '.woff2', '.otf', '.ttf'),
     'Designs': ('.xcf', '.eps', '.ai', '.blend'),
     'Scripts': ('.py', '.js', '.ts', '.sh', '.bat', '.bas', '.ini', '.ino', '.rb'),
