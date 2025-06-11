@@ -34,7 +34,7 @@ file_categories = {
     'Images': ('.jpg', '.jpeg', '.avif', '.png', '.gif', '.bmp', '.webp', '.jfif', '.svg', '.ico', '.pcx', '.ppm', '.cap', '.arw', '.bay', '.cr3', '.crw', '.dcr', '.dcs', '.dib', '.drf', '.erf', '.fff', '.hif', '.wmf', '.wbmp', '.heic'),
     'Documents': ('.pdf', '.epub', '.doc', '.docx', '.txt', '.ppt', '.xlsx', '.tsv','.ods', '.odt', '.odp', '.odf', '.odg', '.accdb', '.rtf', '.md', '.csv', '.pages', '.sxw', '.wpd', '.srt', '.ass', '.lrc', '.lic', '.md'),
     'Archives': ('.zip', '.rar', '.7z', '.tar', '.gz', '.tar.xz', '.dmg', '.001', '.arj', '.bz2', '.bz', '.zst', '.zipx', '.z', '.xz', '.xxe'),
-    'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso', '.aab'),
+    'Programs': ('.exe', '.msi', '.app', '.dmg', '.deb', '.dll', '.jar', '.apk', '.apk+', '.rpm', '.iso', '.aab', '.mpqe', ),
     'Fonts': ('.woff', '.woff2', '.otf', '.ttf'),
     'Designs': ('.xcf', '.eps', '.ai', '.blend', '.bw', '.dicom', '.exr', '.flc', '.fli', '.g3'),
     'Scripts': ('.py', '.js', '.ts', '.sh', '.bat', '.bas', '.ini', '.ino', '.rb', '.bashrc', '.cpp', '.cs', '.java', '.json', '.php', '.pl', '.sql', '.xml', '.yaml', '.yml'),
